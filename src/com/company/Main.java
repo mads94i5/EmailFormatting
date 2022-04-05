@@ -7,6 +7,7 @@ public class Main {
         main.displayEmailParts("madskristianpedersen89@gmail.com");
         main.displayIfEmail("madskristianpedersen89@gmail.com");
         main.displayIfEmail("madskristianpedersen89@gmail.co.uk");
+        main.displayIfEmail("madskristianpedersen89@@gmail.com");
         main.displayIfEmail("madskristianpedersen89@gmail..com");
         main.displayIfEmail("madskristianpedersen89gmail..com");
         main.displayIfEmail("madskristianpedersen89gmail.com");

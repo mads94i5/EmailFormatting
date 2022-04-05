@@ -7,7 +7,11 @@ public class EmailFormatting {
         int dotIndex = 0;
         for (int i = 0; i < email.length(); i++) {
             if (email.charAt(i) == '@') {
-                atIndex = i;
+                if (atIndex == 0) {
+                    atIndex = i;
+                } else {
+                    atIndex = 0;
+                }
             }
             if (email.charAt(i) == '.') {
                 if (dotIndex != i-1) {
